@@ -1,0 +1,37 @@
+{
+  "name": "hapi_demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/server.ts",
+    "dev": "nodemon src/server.ts",
+    "start:cluster": "ts-node src/cluster.ts",
+    "dev:cluster": "nodemon src/cluster.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.12",
+    "@hapi/joi": "^17.1.1",
+    "@hapi/jwt": "^3.2.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "hapi-auth-jwt2": "^10.7.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.2"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/hapi__hapi": "^21.0.0",
+    "@types/hapi__joi": "^17.1.15",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/node": "^22.9.1",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
